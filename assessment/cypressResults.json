@@ -1,0 +1,286 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "114.0.5735.289",
+  "config": {
+    "projectRoot": "C:\\Users\\adish\\Desktop\\Projects\\Qtify\\aditya-singh-criodo-ME_QTIFY\\assessment",
+    "projectName": "assessment",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "baseUrl": null,
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\Users\\adish\\Desktop\\Projects\\Qtify\\aditya-singh-criodo-ME_QTIFY\\assessment\\cypress\\downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\Users\\adish\\Desktop\\Projects\\Qtify\\aditya-singh-criodo-ME_QTIFY\\assessment",
+    "fixturesFolder": "C:\\Users\\adish\\Desktop\\Projects\\Qtify\\aditya-singh-criodo-ME_QTIFY\\assessment\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 59929,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "16.16.0",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\Users\\adish\\Desktop\\Projects\\Qtify\\aditya-singh-criodo-ME_QTIFY\\assessment\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\Users\\adish\\Desktop\\Projects\\Qtify\\aditya-singh-criodo-ME_QTIFY\\assessment\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\Users\\adish\\Desktop\\Projects\\Qtify\\aditya-singh-criodo-ME_QTIFY\\assessment\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "119",
+        "name": "chrome",
+        "path": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "119.0.6045.124"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "119",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "119.0.2151.58"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 114,
+        "name": "electron",
+        "path": "",
+        "version": "114.0.5735.289"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\adish\\AppData\\Local\\Cypress\\Cache\\13.3.1\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.3.1",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.3.1",
+  "endedTestsAt": "2023-11-14T07:25:19.060Z",
+  "osName": "win32",
+  "osVersion": "10.0.22621",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 2,
+        "tests": 1,
+        "passes": 0,
+        "pending": 0,
+        "failures": 1,
+        "start": "2023-11-14T07:25:18.324Z",
+        "end": "2023-11-14T07:25:19.070Z",
+        "duration": 746
+      },
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\Users\\adish\\Desktop\\Projects\\Qtify\\aditya-singh-criodo-ME_QTIFY\\assessment\\cypress\\screenshots\\spec.cy.js\\Qtify Automation -- Should contain logo, search bar, and a button -- before each hook (failed).png",
+          "takenAt": "2023-11-14T07:25:18.520Z",
+          "width": 1280
+        }
+      ],
+      "spec": {
+        "absolute": "C:/Users/adish/Desktop/Projects/Qtify/aditya-singh-criodo-ME_QTIFY/assessment/cypress/e2e/spec.cy.js",
+        "fileExtension": ".js",
+        "fileName": "spec",
+        "name": "spec.cy.js",
+        "relative": "cypress\\e2e\\spec.cy.js"
+      },
+      "stats": {
+        "duration": 742,
+        "endedAt": "2023-11-14T07:25:19.060Z",
+        "failures": 1,
+        "passes": 0,
+        "pending": 0,
+        "skipped": 7,
+        "startedAt": "2023-11-14T07:25:18.318Z",
+        "suites": 2,
+        "tests": 8
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://aditya-singh-criodo-me-qtify-fpd1p7b8o-adishyams-projects.vercel.app/\n\nThe response we received from your web server was:\n\n  > 401: Unauthorized\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Qtify Automation`\n    at <unknown> (http://localhost:59929/__cypress/runner/cypress_runner.js:131188:76)\n    at visitFailedByErr (http://localhost:59929/__cypress/runner/cypress_runner.js:130596:12)\n    at <unknown> (http://localhost:59929/__cypress/runner/cypress_runner.js:131171:13)\n    at tryCatcher (http://localhost:59929/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:59929/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:59929/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:59929/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:59929/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:59929/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:59929/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:59929/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:59929/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://qtify-automation-v2/./cypress/e2e/spec.cy.js:3:7)",
+          "duration": 595,
+          "state": "failed",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "Should contain logo, search bar, and a button"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check if the logo is vertically centered and has space to its left"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check the search bar inside Navbar should contain the placeholder keyword 'search' inside it"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check if the button has a variant of black background"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check if the button's text color is a variant of green"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check if the button has some border-radius"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check if hovering on the button changes the cursor to a pointer"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "Qtify Automation",
+            "Navbar",
+            "should check if the button is styled with 'Poppins' font"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2023-11-14T07:25:18.318Z",
+  "totalDuration": 742,
+  "totalFailed": 1,
+  "totalPassed": 0,
+  "totalPending": 0,
+  "totalSkipped": 7,
+  "totalSuites": 2,
+  "totalTests": 8
+}
